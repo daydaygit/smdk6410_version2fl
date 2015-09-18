@@ -1,0 +1,5 @@
+
+source getting dir:
+
+yaffs2:
+	git clone git://www.aleph1.co.uk/yaffs2
