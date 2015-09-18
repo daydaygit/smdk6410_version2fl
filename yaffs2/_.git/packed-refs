@@ -1,0 +1,18 @@
+# pack-refs with: peeled 
+3c13afb51057896ebc8ae1968b616d58275690d5 refs/remotes/origin/aleph1-release-branch
+a7ae50c6ee8de56afbdae3176a355da54f45b21a refs/remotes/origin/big-files
+bdb04f601934f804c982cbd1ae6add208c96732b refs/remotes/origin/block-refreshing
+6d0911ccf93af1b88bfaef9aa5e02d8dfc33f56a refs/remotes/origin/block-summary
+c955a519e17ce455be524e9d1a5f59fe47f0194e refs/remotes/origin/case-insensitive
+8151c9a6c035743c7d12229eaab73e6f5adb9c39 refs/remotes/origin/clean-up
+c08faae4258b29a794ad55ca160c5a247145c838 refs/remotes/origin/driver-refactoring
+d634851c1f36e7995726602d3af784478ccb472e refs/remotes/origin/fix-uboot
+583dbd9cc2668870cb013f051ba59f7d3e513dae refs/remotes/origin/master
+469d019e17be11b53ea819631519a266a57165b8 refs/remotes/origin/stephanetest
+7e5cf0fa1b694f835cdc184a8395b229fa29f9ae refs/tags/aleph1-release
+6752805392f3b421d820effa4bf3f7484862d409 refs/tags/linux-mainline-patchset-4
+7ad3c1635865d2e214eaef02ec53f0eb3956daa6 refs/tags/linux-mainline-patchset-5
+9bdabdaa8467f3f56359598434e0f6f254c100e9 refs/tags/linux-mainline-rc-01
+7715144e7d55b2854f907001c432348e4caa5954 refs/tags/pre-block-summary
+d634851c1f36e7995726602d3af784478ccb472e refs/tags/pre-driver-refactoring
+b07263adb5c642fcb911125a77b9e7f4bb8af64c refs/tags/pre-name-change
