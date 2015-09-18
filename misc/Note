@@ -3,3 +3,6 @@ source getting dir:
 
 yaffs2:
 	git clone git://www.aleph1.co.uk/yaffs2
+
+busybox:
+	go to http://www.busybox.net/, click left mouse button on the version you want(e.g. v1.23.2)
