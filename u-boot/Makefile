@@ -117,6 +117,7 @@ ifeq ($(OBJTREE)/include/config.mk,$(wildcard $(OBJTREE)/include/config.mk))
 include $(OBJTREE)/include/config.mk
 export	ARCH CPU BOARD VENDOR SOC
 
+$(warning, "============ $(HOSTARCH), $(ARCH) ============")
 ifndef CROSS_COMPILE
 ifeq ($(HOSTARCH),ppc)
 CROSS_COMPILE =
@@ -1878,6 +1879,9 @@ smdk2400_config	:	unconfig
 
 smdk2410_config	:	unconfig
 	@$(MKCONFIG) $(@:_config=) arm arm920t smdk2410 NULL s3c24x0
+
+smdk6410_config	:	unconfig
+	@$(MKCONFIG) $(@:_config=) arm s3c64xx smdk6410 samsung s3c6410
 
 SX1_config :		unconfig
 	@$(MKCONFIG) $(@:_config=) arm arm925t sx1
